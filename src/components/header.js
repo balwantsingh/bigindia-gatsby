@@ -3,32 +3,24 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <nav class=" bg-blue-800 color-white font-mono text-white w-full flex relative justify-between items-center mx-auto m-0 px-8 h-15">
+    <h1 class="inline-flex">
+        <a class="_o6689fn" href="/">
+        Ayn Software
+        </a>
+    </h1>
+   <div class="flex-initial">
+      <div class="flex justify-end items-center relative">
+        <div class="flex mr-4 items-center">
+          <a class="inline-block hover:bg-blue-900 rounded-full" href="#">
+            <div class="flex items-center relative cursor-pointer whitespace-nowrap">Become a host</div>
+          </a>
+        </div>
+      </div>
     </div>
-  </header>
+  </nav>
+  
+
 )
 
 Header.propTypes = {
