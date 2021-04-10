@@ -1,8 +1,0 @@
-/* ./src/styles/global.css */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-.getStarted {
-    background: #ef5413;
-}
