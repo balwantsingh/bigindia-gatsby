@@ -136,12 +136,12 @@ const Pricing = () => (
                     </li>
                   </ul>
                   <Link href="contact">
-                    <span
+                    <a
                       className="text-center text-sm tracking-wide uppercase inline-block border text-white lg:border-none getStarted lg:hover:shadow-xl lg:text-white font-bold w-full p-3 rounded no-underline"
                       rel="noopener noreferrer"
                     >
                       Get started
-                    </span>
+                    </a>
                   </Link>
                 </div>
               </div>

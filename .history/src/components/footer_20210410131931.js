@@ -1,5 +1,7 @@
 import { Link } from "gatsby"
+import PropTypes from "prop-types"
 import React from "react"
+import logo from "../images/bigindia.jpg"
 
 const Footer = () => (
 <div>
@@ -113,6 +115,7 @@ const Footer = () => (
               <Link to="/contact">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  aria-label="contact-us"
                 >
                   Contact Us
                 </span>
@@ -122,6 +125,8 @@ const Footer = () => (
                 <Link to="/privacy-policy">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  aria-label="privacy-policy"
+                  
                 >
                   Privacy Policies
                 </span>
@@ -131,6 +136,8 @@ const Footer = () => (
               <Link to="/terms">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  aria-label="terms-conditions"
+                  
                 >
                   Terms &amp; Conditions
                 </span>
@@ -140,6 +147,8 @@ const Footer = () => (
               <Link to="/helpCenter">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  aria-label="help-center"
+                  
                 >
                   Help Center
                 </span>
@@ -154,49 +163,62 @@ const Footer = () => (
               <Link to="/buyer">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  aria-label="buyer"
+                  
                 >
                   Buyer
                 </span>
                 </Link>
               </li>
               <li class="mb-1">
-              <a href="https://crm.bigindia.com/login" target="_blank" rel="noopener noreferrer">
+              <Link to="https://crm.bigindia.com/login" target="_blank">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  aria-label="rfq"
+                  
                 >
                   RFQ
                 </span>
-                </a>
+                </Link>
               </li>
               <li class="mb-1">
               <Link to="/seller">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  aria-label="seller"
+                  
                 >
                   Seller
                 </span>
                 </Link>
               </li>
               <li class="mb-1">
-              <a href="https://crm.bigindia.com/register" target="_blank" rel="noopener noreferrer">
+              <Link to="https://crm.bigindia.com/register" target="_blank">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="become-seller"
+                 
                 >
                   Become a seller
                 </span>
-                </a>
+                </Link>
               </li>
               <li class="mb-1">
-              <a href="https://crm.bigindia.com/products" target="_blank" rel="noopener noreferrer">
+              <Link to="https://crm.bigindia.com/products" target="_blank">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="post-product"
                 >
                   Post Your Product
                   <span class="bg-red-600 text-white px-1 text-xs ml-1 italic freeProduct">
                     FREE
                   </span>
                 </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

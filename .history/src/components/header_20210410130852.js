@@ -26,12 +26,23 @@ const Header = ({ siteTitle }) => (
         <span class="lg:inline-flex lg:w-auto w-auto px-5 py-2 rounded text-gray-500 hover:text-blue-600 hover:underline">
           <a href="https://crm.bigindia.com/login" target="_blank" rel="noopener noreferrer">RFQ</a>
         </span>
-          <Link to="/advertise/" className="lg:inline-flex lg:w-auto w-auto px-5 py-2 rounded text-gray-500 hover:text-blue-600 hover:underline">Advertises</Link>
-          <a href="https://crm.bigindia.com/login" target="_blank" rel="noopener noreferrer" className="lg:inline-flex lg:w-auto w-auto px-5 py-2 rounded text-gray-500 hover:text-blue-600 hover:underline">Sign in</a>
+        <span class="lg:inline-flex lg:w-auto w-auto px-5 py-2 rounded text-gray-500 hover:text-blue-600 hover:underline">
+          <Link to="/advertise">Advertise</Link>
+        </span>
+        <span class="lg:inline-flex lg:w-auto w-auto px-5 py-2 rounded text-gray-500 hover:text-blue-600 hover:underline">
+          <a href="https://crm.bigindia.com/login" target="_blank" rel="noopener noreferrer">Sign in</a>
+        </span>
       </div>
     </div>
-    <a href="https://wa.me/918287762654" target="_blank" rel="noopener noreferrer" className="fixed z-20 bottom-5 right-0  shadow-lg bgWhatsapp rounded-full float-right mr-8 -mt-60 w-16 h-16 text-4xl font-semibold text-white hover:bg-green-600 text-center transform transition duration-300 hover:scale-110 hover:shadow-xl items-center justify-items-center">
+    <a href="https://wa.me/918287762654" target="_blank" rel="noopener noreferrer">
+          <span
+            className="fixed z-20 bottom-5 right-0  shadow-lg bgWhatsapp rounded-full float-right mr-8 -mt-60 w-16 h-16 text-4xl font-semibold text-white hover:bg-green-600 text-center transform transition duration-300 hover:scale-110 hover:shadow-xl items-center justify-items-center"
+            rel="noopener noreferrer"
+            aria-label={`whatsapp-widgets`}
+            role="link"
+          >
             <img src={whatsapp} alt="WhatsApp" class="w-8 h-8 mx-auto mt-4" />
+          </span>
         </a>
   </nav>
 )

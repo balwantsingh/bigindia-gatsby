@@ -65,22 +65,22 @@ const IndexPage = () => (
                   connecting Buyers and Sellers
                 </h1>
                 <Link to="https://crm.bigindia.com/register" target="_blank">
-                  <span
+                  <a
                     className="inline-flex truncate getStarted font-semibold px-5 py-3 rounded outline-none focus:outline-none mr-5 text-white border text-lg shadow hover:shadow-xl"
                     rel="noopener noreferrer"
                     aria-label="become a seller"
                   >
                     Become a seller
-                  </span>
+                  </a>
                 </Link>
                 <Link to="https://crm.bigindia.com/login" target="_blank">
-                  <span
+                  <a
                     className="inline-flex text-white truncate font-semibold px-5 py-3 rounded outline-none focus:outline-none mr-3 hover:bg-orange-300 bg-indigo-700 text-lg shadow hover:shadow-xl"
                     rel="noopener noreferrer"
                     aria-label="post your product"
                   >
                     Post your product
-                  </span>
+                  </a>
                 </Link>
               </header>
               <footer className="flex text-gray-700 font-bold leading-none p-2 md:p-4 text-center gap-x-16">
@@ -459,7 +459,7 @@ const IndexPage = () => (
                       Get quotations from the most reputed suppliers
                     </div>
                     <Link to="https://crm.bigindia.com/rfq-forms/create">
-                      <span
+                      <a
                         className="text-gray-800 font-semibold px-5 py-3 rounded outline-none focus:outline-none mr-3 mb-1 hover:bg-orange-300 bg-gray-100 text-md border border-gray-400 hover:shadow-lg"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -469,7 +469,7 @@ const IndexPage = () => (
                           <ion-icon name="people-outline"></ion-icon>
                         </span>
                         Become a seller
-                      </span>
+                      </a>
                     </Link>
                   </h1>
                 </div>
@@ -485,7 +485,7 @@ const IndexPage = () => (
                       Most Recent RFQs from leading Companies
                     </div>
                     <Link to="https://crm.bigindia.com/rfq-forms/create">
-                      <span
+                      <a
                         className="text-gray-800 font-semibold px-5 py-3 rounded outline-none focus:outline-none mr-3 mb-1 hover:bg-orange-300 bg-gray-100 text-md border border-gray-400 hover:shadow-lg"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -495,7 +495,7 @@ const IndexPage = () => (
                           <ion-icon name="people-outline"></ion-icon>
                         </span>
                         View RFQ's
-                      </span>
+                      </a>
                     </Link>
                   </h1>
                 </div>
@@ -511,7 +511,7 @@ const IndexPage = () => (
                       Manage Leads from your RFQ's and close deals
                     </div>
                     <Link to="https://crm.bigindia.com/rfq-forms/create">
-                      <span
+                      <a
                         className="text-gray-800 font-semibold px-5 py-3 rounded outline-none focus:outline-none mr-3 mb-1 hover:bg-orange-300 bg-gray-100 text-md border border-gray-400 hover:shadow-lg"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -521,7 +521,7 @@ const IndexPage = () => (
                           <ion-icon name="people-outline"></ion-icon>
                         </span>
                         View Leads{" "}
-                      </span>
+                      </a>
                     </Link>
                   </h1>
                 </div>

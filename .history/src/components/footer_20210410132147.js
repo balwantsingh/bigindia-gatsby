@@ -1,5 +1,7 @@
 import { Link } from "gatsby"
+import PropTypes from "prop-types"
 import React from "react"
+import logo from "../images/bigindia.jpg"
 
 const Footer = () => (
 <div>
@@ -178,16 +180,16 @@ const Footer = () => (
                 </Link>
               </li>
               <li class="mb-1">
-              <a href="https://crm.bigindia.com/register" target="_blank" rel="noopener noreferrer">
+              <Link to="https://crm.bigindia.com/register" target="_blank">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
                 >
                   Become a seller
                 </span>
-                </a>
+                </Link>
               </li>
               <li class="mb-1">
-              <a href="https://crm.bigindia.com/products" target="_blank" rel="noopener noreferrer">
+              <Link to="https://crm.bigindia.com/products" target="_blank">
                 <span
                   class="border-b border-solid border-transparent  text-gray-600 hover:text-blue-500 hover:underline"
                 >
@@ -196,7 +198,7 @@ const Footer = () => (
                     FREE
                   </span>
                 </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
