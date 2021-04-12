@@ -1,0 +1,80 @@
+import React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import benefits from "../images/benefits.jpg"
+<StaticImage
+src="../images/career.jpg"
+width={1000}
+alt="Buy and Sell with Bigindia"
+placeholder="tracedSVG"
+quality="40"
+/>
+const Benefits = () => (
+  <Layout>
+    <SEO title="Advertise with Bigindia.com" />
+    <div className="text-gray-700 body-font">
+      <div className="flex p-8 md:flex-row flex-col">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0">
+          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+            Benefits of BigIndia.com
+          </h1>
+          <p className="mb-5 leading-relaxed">
+            BigIndia.com is a leading online marketplace connecting Buyers and
+            Sellers
+          </p>
+          <p className="mb-3 text-xl font-semibold leading-relaxed">
+            Benefits for Sellers
+          </p>
+          <ul className="mb-5 ml-3 leading-relaxed">
+            <li className="py-1">
+              <ion-icon name="caret-forward-outline"></ion-icon> Add Free
+              Company Page and post Products online
+            </li>
+            <li className="py-1">
+              <ion-icon name="caret-forward-outline"></ion-icon> Get Business
+              Leads from buyers all over the world
+            </li>
+            <li className="py-1">
+              <ion-icon name="caret-forward-outline"></ion-icon> Free CRM
+              Software to manage Leads, Deals and Orders
+            </li>
+          </ul>
+          <p className="mb-3 text-xl font-semibold leading-relaxed">
+            Benefits for Buyers
+          </p>
+          <ul className="mb-5 ml-3 leading-relaxed">
+            <li className="py-1">
+              <ion-icon name="caret-forward-outline"></ion-icon> Buy bulk
+              wholesale products directly from manufacturers
+            </li>
+            <li className="py-1">
+              <ion-icon name="caret-forward-outline"></ion-icon> Instantly
+              contact product suppliers from your city
+            </li>
+            <li className="py-1">
+              <ion-icon name="caret-forward-outline"></ion-icon> Post product
+              requirement RFQ and get quotes online
+            </li>
+          </ul>
+          <div className="flex">
+            <Link to="https://crm.bigindia.com/register">
+              <span
+                className="inline-flex text-white getStarted border-0 py-2 px-6 focus:outline-none hover:shadow-lg rounded text-lg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Register Now For Free
+              </span>
+            </Link>
+          </div>
+        </div>
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img src={benefits} alt="Benefits" />
+        </div>
+      </div>
+    </div>
+  </Layout>
+)
+
+export default Benefits
