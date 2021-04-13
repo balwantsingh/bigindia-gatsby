@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/">
       <StaticImage
                 src="../images/bigindia.jpg"
-                width={150}
+                width={300}
                 alt="Buy and Sell with Bigindia"
                 placeholder="tracedSVG"
                 quality="40"
@@ -39,13 +39,7 @@ const Header = ({ siteTitle }) => (
       </div>
     </div>
     <a href="https://wa.me/918287762654" target="_blank" rel="noopener noreferrer" class="fixed z-20 bottom-5 right-0  shadow-lg bgWhatsapp rounded-full float-right mr-8 -mt-60 w-16 h-16 text-4xl font-semibold text-white hover:bg-green-600 text-center transform transition duration-300 hover:scale-110 hover:shadow-xl items-center justify-items-center">
-    <StaticImage
-                src="../images/whatsapp.png"
-                width={60}
-                alt="Buy and Sell with Bigindia"
-                placeholder="tracedSVG"
-                quality="40"
-              />
+            <img src={whatsapp} alt="WhatsApp" class="w-8 h-8 mx-auto mt-4" />
         </a>
   </nav>
 )

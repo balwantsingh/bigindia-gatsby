@@ -56,7 +56,7 @@ const IndexPage = () => (
             <div className="flex justify-end">
               <StaticImage
                 src="../images/connect-buyer-seller.png"
-                width={1000}
+                width={500}
                 alt="Buy and Sell with Bigindia"
                 placeholder="tracedSVG"
                 quality="40"
@@ -75,7 +75,7 @@ const IndexPage = () => (
         <p>
           <StaticImage
             src="../images/dryer.jpeg"
-            width={1000}
+            width={500}
             height={1000}
             alt="Foldable Hair Dryer"
             placeholder="tracedSVG"
@@ -780,14 +780,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/delhi.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Delhi</div>
+                <StaticImage
+                src="../images/delhi.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Delhi</div>
                 </div>
               </header>
             </article>
@@ -796,14 +795,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/bengaluru.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Bengaluru</div>
+                <StaticImage
+                src="../images/bengaluru.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Bengaluru</div>
                 </div>
               </header>
             </article>
@@ -812,14 +810,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/chennai.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Chennai</div>
+                <StaticImage
+                src="../images/chennai.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Chennai</div>
                 </div>
               </header>
             </article>
@@ -828,14 +825,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/mumbai.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Mumbai</div>
+                <StaticImage
+                src="../images/mumbai.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Mumbai</div>
                 </div>
               </header>
             </article>
@@ -844,14 +840,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/ahmedabad.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Ahmedabad</div>
+                <StaticImage
+                src="../images/ahmedabad.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Ahmedabad</div>
                 </div>
               </header>
             </article>
@@ -860,14 +855,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/kolkata.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Kolkata</div>
+                <StaticImage
+                src="../images/kolkata.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Kolkata</div>
                 </div>
               </header>
             </article>
@@ -876,14 +870,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/pune.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Pune</div>
+                <StaticImage
+                src="../images/pune.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Pune</div>
                 </div>
               </header>
             </article>
@@ -892,14 +885,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/surat.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Surat</div>
+                <StaticImage
+                src="../images/surat.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Surat</div>
                 </div>
               </header>
             </article>
@@ -908,14 +900,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/jaipur.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Jaipur</div>
+                <StaticImage
+                src="../images/jaipur.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Jaipur</div>
                 </div>
               </header>
             </article>
@@ -924,14 +915,13 @@ const IndexPage = () => (
             <article class="overflow-hidden rounded-lg">
               <header class="flex">
                 <div class="text-gray-700 mt-5 text-center text-lg">
-                  <StaticImage
-                    src="../images/hyderabad.jpg"
-                    width={100}
-                    alt="Others"
-                    placeholder="tracedSVG"
-                    quality="40"
-                  />{" "}
-                  <div>Hyderabad</div>
+                <StaticImage
+                src="../images/hyderabad.jpg"
+                width={100}
+                alt="Others"
+                placeholder="tracedSVG"
+                quality="40"
+              /> <div>Hyderabad</div>
                 </div>
               </header>
             </article>

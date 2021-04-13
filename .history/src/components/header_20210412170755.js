@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/">
       <StaticImage
                 src="../images/bigindia.jpg"
-                width={150}
+                width={300}
                 alt="Buy and Sell with Bigindia"
                 placeholder="tracedSVG"
                 quality="40"

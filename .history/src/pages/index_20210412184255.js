@@ -54,13 +54,7 @@ const IndexPage = () => (
 
           <div className="px-1 w-full md:w-1/2 lg:my-0 lg:px-4 lg:w-1/2">
             <div className="flex justify-end">
-              <StaticImage
-                src="../images/connect-buyer-seller.png"
-                width={1000}
-                alt="Buy and Sell with Bigindia"
-                placeholder="tracedSVG"
-                quality="40"
-              />
+
             </div>
           </div>
         </div>
